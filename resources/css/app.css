@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .panel {
+        @apply w-full min-h-96 bg-white rounded-lg shadow-lg border border-secondary
+    }
+    .input-generic {
+        @apply input input-sm input-primary bg-gray-50
+    }
+    .input-generic-label {
+        @apply text-secondary font-bold;
+    }
+}
